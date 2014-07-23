@@ -1,0 +1,19 @@
+./bootstrap.sh --prefix=/home/users/yangjun03/sofa/boost_1_53_0/boostbuilddir/ --includedir=/home/users/yangjun03/sofa/boost_1_53_0/boostbuilddir/include/ --libdir=/home/users/yangjun03/sofa/boost_1_53_0/boostbuilddir/lib/ --with-libraries=program_options
+./bjam variant=release link=shared install
+./b2
+./b2 install
+
+export LD_LIBRARY_PATH=/home/users/yangjun03/sofa/boost_1_53_0/boostbuilddir/lib:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=/home/users/linqiaoying/easyBenchmarkdir/depends:${LD_LIBRARY_PATH}
+
+
+/home/users/yangjun03/sofa/boost_1_53_0/boostbuilddir/lib
+/home/users/yangjun03/sofa/workspace/echo_benchmark
+
+./argtest -i 321 -s abcde -a 4 5 6 7
+
+
+【性能统计】
+/home/users/yangjun03/sofa/sofa-pbrpc-master
+./sofa-pbrpc-client 127.0.0.1:12321 stat sofa.pbrpc.test.EchoServer 60
+

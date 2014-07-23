@@ -1,0 +1,5 @@
+{
+	"data":["abcdefg","helloworld","SerializableAttribute","STRING is a database of known and predicted protein interactions",
+	"The String class represents character strings","C++内置的数组支持容器的机制,但是它不支持容器抽象的语义",
+	"vector不是指针,不可能返回地址,返回的是一个拷贝的对象"]
+}

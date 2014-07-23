@@ -1,0 +1,13 @@
+{
+	"name":"项目列表",
+	"data":["地点关联",
+		"用户偏好",
+		"用户常驻地",
+		"用户轨迹",
+		"结合历史跨类目推荐",
+		"结合历史同行业推荐",
+		"空间索引",
+		"streaming"],
+	"info":{"name":"yangjun","age":24,"dept":"LBS测试"},
+	"detail":[{"name":"yangjun01","age":25,"dept":"LBS测试01"},{"name":"yangjun02","age":26,"dept":"LBS测试02"}]
+}
